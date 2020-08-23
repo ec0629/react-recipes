@@ -6,6 +6,7 @@
   - [Recipe 3: 3 core methods of styling components](#recipe-3-3-core-methods-of-styling-components)
   - [Recipe 4: using inline JavaScript expressions in JSX](#recipe-4-using-inline-javascript-expressions-in-jsx)
   - [Recipe 5: returning multiline JSX as a single expression](#recipe-5-returning-multiline-jsx-as-a-single-expression)
+  - [Recipe 6: understanding the basic components of React Router](#recipe-6-understanding-the-basic-components-of-react-router)
 
 
 ## Recipe 1: Page Not Found route
@@ -34,3 +35,9 @@ Client Side React Router 4, David Starr, Pluralsight, (March 2, 2018)
 
 ## Recipe 5: returning multiline JSX as a single expression
 - like JavaScript we can extend expressions over multiple lines using parentheses
+
+---
+
+## Recipe 6: understanding the basic components of React Router
+- includes discussion regarding 3 common props passed to all components rendered using
+the React Router framework
