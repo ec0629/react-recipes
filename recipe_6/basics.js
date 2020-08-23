@@ -16,20 +16,19 @@ function App() {
     <Router>
       <div className="App">
         <div>
-          <!-- since Routes are just components we can include any number of them and each one will be rendered in the UI -->
+          {/* since Routes are just components we can include any number of them and each one will be rendered in the UI */}
           <Route path="/" component={Home} />
-          <!-- the path attribute without using the 'exact' attribute along side it is a fuzzy mathcher and will match ANY routes that
- 								the declared path from this nesting point forward
-					-->
+          {/* the path attribute without using the 'exact' attribute along side it is a fuzzy mathcher and will match ANY routes that
+ 								the declared path from this nesting point forward */}
           <Route path="/" component={Home} />
-          <!-- both of these will be rendered for /another/path -->
+          {/* both of these will be rendered for /another/path */}
           <Route path="/another/path" component={Home} />
           <Route path="/" component={Home} exact />
-          <!-- the above Route will not be rendered for /another/patch since it is now looking for an exact match -->
+          {/* the above Route will not be rendered for /another/patch since it is now looking for an exact match */}
 
           <Switch>
-            <!-- Wrapping Routes in a Switch means only one Route will be rendered -->
-          	<Route path="/" component={Home} />
+            {/* Wrapping Routes in a Switch means only one Route will be rendered */}
+            <Route path="/" component={Home} />
             <Route path="/another/path" component={Home} />
           </Switch>
         </div>

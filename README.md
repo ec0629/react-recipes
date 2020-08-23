@@ -7,6 +7,8 @@
   - [Recipe 4: using inline JavaScript expressions in JSX](#recipe-4-using-inline-javascript-expressions-in-jsx)
   - [Recipe 5: returning multiline JSX as a single expression](#recipe-5-returning-multiline-jsx-as-a-single-expression)
   - [Recipe 6: understanding the basic components of React Router](#recipe-6-understanding-the-basic-components-of-react-router)
+  - [Recipe 7: two ways of passing handlers and methods to React components with dynamic arguments](#recipe-7-two-ways-of-passing-handlers-and-methods-to-react-components-with-dynamic-arguments)
+  - [Recipe 8: rendering adjacent components](#recipe-8-rendering-adjacent-components)
 
 
 ## Recipe 1: Page Not Found route
@@ -41,3 +43,16 @@ Client Side React Router 4, David Starr, Pluralsight, (March 2, 2018)
 ## Recipe 6: understanding the basic components of React Router
 - includes discussion regarding 3 common props passed to all components rendered using
 the React Router framework
+
+---
+
+## Recipe 7: two ways of passing handlers and methods to React components with dynamic arguments
+- especially when rendering a list of components we may need to pass additional arguments to
+handlers beyond the event object
+- this can be accomplished either using a closure or the bind function method
+
+---
+
+## Recipe 8: rendering adjacent components
+- because a return statement can only accept a single JavaScript expression and each component
+represents a function call to React.render we cannot simply place components adjacent to one another
