@@ -9,6 +9,7 @@
   - [Recipe 6: understanding the basic components of React Router](#recipe-6-understanding-the-basic-components-of-react-router)
   - [Recipe 7: two ways of passing handlers and methods to React components with dynamic arguments](#recipe-7-two-ways-of-passing-handlers-and-methods-to-react-components-with-dynamic-arguments)
   - [Recipe 8: rendering adjacent components](#recipe-8-rendering-adjacent-components)
+  - [Recipe 9: building nested routes](#recipe-9-building-nested-routes)
 
 
 ## Recipe 1: Page Not Found route
@@ -56,3 +57,8 @@ handlers beyond the event object
 ## Recipe 8: rendering adjacent components
 - because a return statement can only accept a single JavaScript expression and each component
 represents a function call to React.render we cannot simply place components adjacent to one another
+
+---
+
+## Recipe 9: building nested routes
+- leveraging the declarative nature of the framework to handle nested routes
