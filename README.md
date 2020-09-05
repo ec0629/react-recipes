@@ -62,3 +62,8 @@ represents a function call to React.render we cannot simply place components adj
 
 ## Recipe 9: building nested routes
 - leveraging the declarative nature of the framework to handle nested routes
+
+---
+
+## Recipe 10: extending the Route component to handle protected routes
+- basic example of a route requiring authentication
